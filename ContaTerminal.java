@@ -8,7 +8,7 @@ public class ContaTerminal {
 
 
 
-        System.out.println("Por gentileza digite o seu numero de usuario: (Somente numeros)");
+        System.out.println("Por gentileza digite o seu numero da conta: (Somente numeros)");
         int numero = sc.nextInt();
         sc.nextLine();
         System.out.println("Por gentileza digite o numero da sua agência ");
@@ -20,9 +20,9 @@ public class ContaTerminal {
         System.out.println("Qual seu saldo atual? (Somente numeros)");
         double saldo = sc.nextDouble();
 
-        System.out.println("*****=====================================================================================================================================*****");
+        System.out.println("*****====================================================================================================================================*****");
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia+ ", conta " + numero + " e seu saldo " +  saldo + " já está disponível para saque");
-        System.out.println("*****=====================================================================================================================================*****");
+        System.out.println("*****====================================================================================================================================*****");
 
             sc.close();
     }
